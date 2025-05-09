@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
   // Fetch a quote when the page loads
   fetchRandomQuote();
-  setInterval(fetchRandomQuote, 10000); // 10000 ms = 10 seconds
+  setInterval(fetchRandomQuote, 20000); // 10000 ms = 10 seconds
   // Fetch a new quote when the button is clicked
   newQuoteButton.addEventListener("click", fetchRandomQuote);
 });
