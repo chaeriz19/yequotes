@@ -8,7 +8,7 @@
 
 body {
     font-family: 'Playfair Display', serif;
-    background-color: #f0f0f0;
+    background-color: rgb(31, 31, 31);
     display: flex;
     justify-content: center;
     align-items: center;
@@ -25,11 +25,11 @@ body {
 h1 {
     font-size: 3rem;
     margin-bottom: 2rem;
-    color: #222;
+    color: #ffffff;
 }
 
 .quote-container {
-    background-color: white;
+    background-color: rgb(58, 58, 58);
     padding: 40px;
     border-radius: 10px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
