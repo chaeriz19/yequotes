@@ -86,7 +86,7 @@ app.get('/api/quote', async (_req, res) => {
     res.json(quotes[randomIndex]);
   } catch (error) {
     console.error('Error fetching quote:', error);
-    res.status(500).json({ error: 'Failed to fetch quote' });
+    res.status(500).json({ error: "Failed to fetch quote" + error });
   }
 });
 
